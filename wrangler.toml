@@ -10,3 +10,8 @@ minify = true
 
 # Use the new Workers + Assets to host the static frontend files
 assets = { directory = ".worker-next/assets", binding = "ASSETS" }
+
+# CACHE
+[[kv_namespaces]]
+binding = "NEXT_CACHE_WORKERS_KV"
+id = "5073b655eb52455db0e47b95c04fb53e"
